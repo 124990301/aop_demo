@@ -1,31 +1,36 @@
-HELP.md
+# Maven #
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+!.mvn/wrapper/maven-wrapper.properties
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA #
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
+# Eclipse #
+.settings/
+.project
+.classpath
+bin/
 
-### VS Code ###
+# VS Code #
 .vscode/
+
+# Mac OS #
+.DS_Store
+
+# Windows #
+Thumbs.db
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Logs #
+*.log
+
+# Spring Boot #
+.mvn/timing.properties
